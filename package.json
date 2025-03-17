@@ -1,0 +1,13 @@
+{
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon --exec functions-framework --target=bridge --timeout=540 --port=8081"
+    },
+    "dependencies": {
+        "@google-cloud/functions-framework": "^3.0.0",
+        "dotenv": "^16.4.4",
+        "joi": "^17.12.2",
+        "mysql2": "^3.9.1",
+        "sequelize": "^6.37.0"
+    }
+}
